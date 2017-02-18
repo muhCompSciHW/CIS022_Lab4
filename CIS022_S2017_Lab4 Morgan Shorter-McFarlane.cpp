@@ -25,7 +25,7 @@ int main() //program main entry point
 	}
 
 	if (input >= 10){				//if the input is greater than or equal to 10
-		cout << "\n\n" << static_cast<char>( x - 10 + 'A' ) << "\n\n\n";  //output the remapped ASCII repesentation of the input
+		cout << "\n\n" << static_cast<char>( input - 10 + 'A' ) << "\n\n\n";  //output the remapped ASCII repesentation of the input
 		system("Pause");			// wait for a keypress event before continuing execution
 		return 0;				// terminate execution
 	}
